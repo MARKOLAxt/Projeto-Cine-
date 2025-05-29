@@ -1,0 +1,38 @@
+.banner{
+
+    background-image: url(../images/Banner.png);
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.banner__container{
+
+    max-width: var(--max-width-block);
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.banner__titulo{
+
+    font-family: var(--fonte-titulo);
+    font-size: 4.75rem;
+    font-weight: 400;
+    color: var(--cor-texto-claro);
+    width: 50%;
+    line-height: 1.2em;
+}
+
+.banner__titulo-destaque{
+
+    font-family: var(--fonte-titulo);
+    font-size: 4.75rem;
+    font-weight: 400;
+    color: var(--cor-texto-destaque);
+    line-height: 1.2em;
+}
