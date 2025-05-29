@@ -43,6 +43,7 @@ form{
     display: flex;
     width: 678px;
     height: 57px;
+    font-family: var(--fonte-texto);
     justify-content: space-between;
     align-items: center;
     padding: 24px;
