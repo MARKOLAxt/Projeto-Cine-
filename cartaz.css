@@ -1,4 +1,5 @@
 
+
 .section__text{
 
     margin: 0 auto;
@@ -50,12 +51,24 @@ form{
 
 }
 
+.cartaz__emcartaz{
+
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+
+
+}
+
 h3{
 
-    
+    margin: 0 auto;
+    width: 60%;
     display: flex;
-    size: 49px;
+    font-size: 49px;
     line-height: 120%;
     font-weight: 400;
+    justify-content: left;
+    font-family: var(--fonte-titulo);
 
 }
